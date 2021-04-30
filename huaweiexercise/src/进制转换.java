@@ -23,11 +23,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-class Solution {
+class 进制转换 {
     private final int BASE = 16;
     private Map<Character, Integer> map;
 
-    public Solution() {
+    public 进制转换() {
         map = new HashMap<>(16);
         map.put('0', 0);
         map.put('1', 1);
@@ -48,7 +48,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        进制转换 solution = new 进制转换();
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
             String hex = scanner.nextLine();
